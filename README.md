@@ -33,7 +33,6 @@ You can view the live version of the project here:
 ## Backend API
 
 ### User Routes
-These routes handle user-related operations such as authentication and payment processing.
 
 - **POST /register**  
   Registers a new user.  
@@ -59,7 +58,6 @@ These routes handle user-related operations such as authentication and payment p
   **Controller**: `verifyStripe`
 
 ### Image Routes
-These routes handle image-related operations such as generation.
 
 - **POST /generate-image**  
   Generates an image based on user input (authentication required).  
