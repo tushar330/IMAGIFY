@@ -10,6 +10,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Login from './components/Login'
 import { AppContext } from './context/AppContext'
+import Verify from './pages/Verify'
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/buy" element={<BuyCredit/>} />
         <Route path="/result" element={<Result/>} />
+        <Route path='/verify' element={<Verify />} />
       </Routes>
       <Footer/>
     </div>
